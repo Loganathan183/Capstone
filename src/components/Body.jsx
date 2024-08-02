@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { useStateProvider } from "../utils/StateProvider";
 import { AiFillClockCircle } from "react-icons/ai";
 import { reducerCases } from "../utils/Constants";
+// eslint-disable-next-line
 import PlayerControls from "./PlayerControls";
 
 export default function Body({ headerBackground }) {

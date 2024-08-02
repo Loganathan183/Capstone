@@ -12,6 +12,7 @@ export default function PlayerControls() {
 
   const changeState = async () => {
     const state = playerState ? "pause" : "play";
+    // eslint-disable-next-line
     const response=await axios.put(
       `https://api.spotify.com/v1/me/player/${state}`,
       {},
